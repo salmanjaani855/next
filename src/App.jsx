@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import { Routes, Route } from "react-router-dom";
-import SplashCursor from './SplashCursor'
+// import SplashCursor from './SplashCursor'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Feature from './Components/Feature'
@@ -23,7 +23,7 @@ export default function App() {
   return (
     
     <div>
-      <SplashCursor/>
+      {/* <SplashCursor/> */}
          {/* Navigation hamesha visible rahegi */}
       <Navbar />
 
