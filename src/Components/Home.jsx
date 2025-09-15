@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-// import ForBiggerJoyrides from "../assets/ForBiggerJoyrides.mp4"
-import lyric from "../assets/lyric.webm"
+import ForBiggerJoyrides from "../assets/ForBiggerJoyrides.mp4"
+
 import TextPressure from '../TextPressure';
 import BlurText from "../BlurText";
 import ScrollVelocity from '../ScrollVelocity';
@@ -62,7 +62,7 @@ export default function Home() {
                     <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                         <video
                             className="min-w-full min-h-full absolute object-cover"
-                            src={lyric}
+                            src={ForBiggerJoyrides}
                             type="video/mp4"
                             autoPlay
                             muted
